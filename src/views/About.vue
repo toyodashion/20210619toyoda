@@ -59,7 +59,7 @@ main{
 
 .about{
   width: 80%;
-  margin: 150px 0 0 ;
+  margin-top:150px!important;
 }
 
 .about__content{

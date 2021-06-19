@@ -112,13 +112,13 @@
     </div>
 
     <div class="link">
-      <div class="link__content">
+      <div class="link__content" v-on:click="changePageService">
         <img src="../assets/IMG_20200713_193132.jpg" alt="LINK">
         <div class="link__content--text">
           <h3>SERVICE</h3>
         </div>
       </div>
-      <div class="link__content">
+      <div class="link__content" v-on:click="changePageNews">
         <img src="../assets/IMG_20200713_193102.jpg" alt="LINK">
         <div class="link__content--text">
           <h3>NEWS</h3>
@@ -128,6 +128,19 @@
   </main>
 
 </template>
+
+<script>
+export default{
+  methods:{
+    changePageService:function(){
+      this.$router.push({name:'Service'})
+    },
+    changePageNews:function(){
+      this.$router.push({name:'News'})
+    }
+  }
+}
+</script>
 
 <style>
 

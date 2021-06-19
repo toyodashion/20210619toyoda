@@ -2,15 +2,9 @@
   <div id="app">
     <Header/>
     <router-view></router-view>
-    <footer>
-      <small>&copy;ShionToyoda.AllRights.Reserved</small>
-    </footer>
+    <Footer/>
   </div>
 </template>
-
-<script>
-
-</script>
 
 <style>
 body{
@@ -19,29 +13,15 @@ body{
   width:100%;
 }
 
-footer{
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: flex-end;
-  height: 50px;
-  font-family: 'Viaoda Libre', cursive;
-  background:white;
-}
-
-small{
-  font-size: 10px;
-  padding-bottom: 10px;
-}
-</style>
-
 </style>
 
 <script>
-import Header from 'components/header.vue'
+import Header from './components/header.vue'
+import Footer from './components/footer.vue'
 export default{
   components:{
-    Header
+    Header,
+    Footer
   }
 }
 </script>

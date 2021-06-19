@@ -52,7 +52,7 @@ main{
   display:flex;
   flex-direction:column;
   align-items:center;
-  margin:150px 0 50px;
+  margin-top:150px!important;
 }
 
 .service h2{
