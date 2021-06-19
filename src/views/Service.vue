@@ -52,6 +52,7 @@ main{
   display:flex;
   flex-direction:column;
   align-items:center;
+  margin:150px 0 50px;
 }
 
 .service h2{
@@ -83,5 +84,11 @@ main{
 .service__card--content--text p{
   font-size: 15px;
   padding: 5px 0;
+}
+
+@media screen and (max-width:768px){
+  .service__card--content{
+    width:49%;
+  }
 }
 </style>

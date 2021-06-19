@@ -110,7 +110,7 @@
         </a></dl>
       </div>
     </div>
-    
+
     <div class="link">
       <div class="link__content">
         <img src="../assets/IMG_20200713_193132.jpg" alt="LINK">
@@ -348,11 +348,11 @@ img{
     align-items:center;
   }
   .about__text{
-   width:100%;
-   text-align:center;
-   display:flex;
-   flex-direction:column;
-   align-items:center;
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
   }
 }
 

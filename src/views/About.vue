@@ -1,6 +1,7 @@
 <template>
 <main>
   <div class="about">
+  <h2>ABOUT</h2>
     <div class="about__content">
       <div class="about__img">
         <img src="../assets/IMG_20200717_085928.jpg" alt="ABOUT">
@@ -58,7 +59,7 @@ main{
 
 .about{
   width: 80%;
-  margin: 200px 0 0 ;
+  margin: 150px 0 0 ;
 }
 
 .about__content{
