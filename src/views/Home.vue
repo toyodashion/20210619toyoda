@@ -145,7 +145,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:1050px;
   justify-content: space-between;
   width: 100%;
 }
@@ -164,6 +163,7 @@ main{
 
 .first-view__text{
   width: 80%;
+  margin-top:150px;
 }
 
 .first-view__text h2{
@@ -180,10 +180,10 @@ main{
 
 .about{
   width: 80%;
-  margin: 70px 0;
   display:flex;
   flex-direction:column;
   align-items:center;
+  margin-top:10px!important;
 }
 
 .about h2{
@@ -237,10 +237,11 @@ td{
   display:flex;
   flex-direction:column;
   align-items:center;
+  margin-top:10px!important;
 }
 
 .service h2{
-  padding: 20px;
+  padding: 0 20px 20px;
 }
 
 .service__card{
@@ -272,7 +273,8 @@ td{
 
 .news{
   width: 80%;
-  margin:70px
+  margin-top:10px!important;
+  margin-bottom:80px!important;
 }
 
 .news h2{

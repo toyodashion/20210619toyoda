@@ -1,15 +1,6 @@
 <template>
   <div id="app">
-    <header>
-      <router-link to="/"><h1>ShionToyoda</h1></router-link>
-      <nav class="nav__pc">
-        <ul>
-          <router-link to="/about">ABOUT</router-link>
-          <router-link to="/service">SERVICE</router-link>
-          <router-link to="/news">NEWS</router-link>
-        </ul>
-      </nav>
-    </header>
+    <Header/>
     <router-view></router-view>
     <footer>
       <small>&copy;ShionToyoda.AllRights.Reserved</small>
@@ -17,45 +8,15 @@
   </div>
 </template>
 
+<script>
+
+</script>
+
 <style>
 body{
   margin:0;
   padding:0;
   width:100%;
-}
-
-header{
-  height: 130px;
-  width: 100%;
-  position: fixed;
-  background-color:white;
-}
-
-h1{
-  font-size: 60px;
-  font-family: 'Viaoda Libre', cursive;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  margin:0;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-.nav__pc{
-  display: flex;
-  justify-content: center;
-}
-
-.nav__pc ul{
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  margin:0;
-  font-family: 'Viaoda Libre', cursive;
 }
 
 footer{
@@ -74,3 +35,13 @@ small{
 }
 </style>
 
+</style>
+
+<script>
+import Header from 'components/header.vue'
+export default{
+  components:{
+    Header
+  }
+}
+</script>
